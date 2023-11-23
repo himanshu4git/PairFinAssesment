@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class MyUtils {
 
+
+    // Below function takes input from user and create an array
     public static int[] getUserInputArray() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");
@@ -17,7 +19,7 @@ public class MyUtils {
         scanner.close();
         return nums;
     }
-
+    //Below function finds the majority element
     public static int majorityElementMap(int[] nums) {
         Map<Integer, Integer> countMap = new HashMap<>();
         for (int num : nums) {
