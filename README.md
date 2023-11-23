@@ -1,13 +1,12 @@
 # PairFinAssesment
 
 
-
 *****************************************************************
 This Program finds majority element in given array. 
 I created a function to get the user input to form an array
-assumptionis that the majority element always exists in the array.
+assumption is that the majority element always exists in the array.
 *****************************************************************
-The main method calls two utilites function 
+The main method calls two utilities function 
 first is to create the array by taking input from user
 Second is to find the majority element in the array
 *****************************************************************
